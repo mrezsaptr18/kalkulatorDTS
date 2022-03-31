@@ -1,0 +1,100 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: papayawhip;
+  }
+  #container {
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+  }
+  #calculator {
+    width: 350px;
+    height: 520px;
+    background-color: #00fdc6;
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px black (0, 0, 0, 0.19);
+    border-radius: 20px;
+  }
+  #result {
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    border-color: rgb(121, 121, 121);
+    border-width: 5px;
+    border-radius: 30px;
+  }
+  #history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: black;
+  }
+  #output {
+    text-align: right;
+    height: 60px;
+    margin: 15px 25px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+  }
+  #tombolcalc {
+    height: 450px;
+  }
+  .operator,.number,.empty {
+    width: 55px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: black;
+  }
+  .number,.empty {
+    background-color: white;
+  }
+  .operator {
+    background-color: rgb(255, 251, 0);
+    border-width: 5px;
+    border-color: rgb(255, 0, 0);
+  }
+  .number,.operator {
+    cursor: pointer;
+  }
+  .number:active,.operator:active {
+    font-size: 15px;
+  }
+  .number:focus,.operator:focus,.empty:focus {
+    outline: 0;
+  }
+  button:nth-child(4) {
+    font-size: 20px;
+    background-color: rgb(255, 251, 0);
+  }
+  button:nth-child(8) {
+    font-size: 20px;
+    background-color: rgb(255, 251, 0);
+  }
+  button:nth-child(12) {
+    font-size: 20px;
+    background-color:rgb(255, 251, 0);
+  }
+  button:nth-child(16) {
+    font-size: 20px;
+    background-color: rgb(255, 251, 0);
+  }
+  button:nth-child(20) {
+    font-size: 20px;
+    background-color: rgb(255, 251, 0);
+  }
+  #tombolcalc :hover{
+    background-color: rgb(255, 49, 22);
+    overflow: hidden;
+    transition: all 2s;
+  }
